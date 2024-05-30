@@ -1,13 +1,18 @@
 # 3. Score
 """
 function main
-    score = float(input("Enter score: "))
+    score = get_a_valid_score()
     grade = print_grade(score)
 
-function print_grade(score)
-    if score < 0 or score > 100
+function get_a_valid_score()
+    get score
+    while score < 0 or score > 100
         print "Invalid score"
-    elif score >= 50
+        get score
+    return score
+
+function print_grade(score)
+    if score >= 50
         print "Passable"
     elif score >= 90
         print "Excellent"
@@ -15,13 +20,18 @@ function print_grade(score)
         print "Bad"
 """
 def main():
-    score = float(input("Enter score: "))
+    score = get_a_valid_score()
     grade = print_grade(score)
 
-def print_grade(score):
-    if score < 0 or score > 100:
+def get_a_valid_score():
+    score = float(input("Enter score: "))
+    while score < 0 or score > 100:
         print("Invalid score")
-    elif score >= 50:
+        score = float(input("Enter score: "))
+    return score
+
+def print_grade(score):
+    if score >= 50:
         print("Passable")
     elif score >= 90:
         print("Excellent")
