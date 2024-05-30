@@ -1,7 +1,19 @@
 # 1. Password Star
 """
+MINIMUM_LENGTH = 6
 function main
+    password = get_valid_password
+    stars = print_asterisks
 
+function get_valid_password
+    get password
+    while len(password) < MINIMUM_LENGTH:
+        print "too short"
+        get password
+    return password
+
+function print_asterisks
+    print "*" * len(password)
 """
 MINIMUM_LENGTH = 6
 
