@@ -7,9 +7,9 @@ out_file.close()
 
 # 2.
 in_file = open("name.txt", "r")
-name1 = in_file.read()
+name = in_file.read()
 in_file.close()
-print(f"Hi {name1} !")
+print(f"Hi {name} !")
 
 # 3.
 input_file = open("numbers.txt", "r")
