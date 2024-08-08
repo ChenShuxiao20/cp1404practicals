@@ -13,7 +13,7 @@ Sometimes it's accurate, and sometimes it takes longer because of uncertainty.
 
 ### How did your estimate accuracy improve or change during the course of the subject?
 
-As I gained experience, the actual time became closer and closer to my estimate
+As I gained experience, the actual time became closer and closer to my estimate.
 
 ### What did you learn from doing these estimates?
 
@@ -35,7 +35,7 @@ For each one, write a short explanation of what was good about your review.
 
 ### Good Code Review 1
 
-[https://github.com/MarcusThum/cp1404practicals/pull/5#pullrequestreview-2217763646]()
+[https://github.com/MarcusThum/cp1404practicals/pull/5#pullrequestreview-2217763646](1)
 
 ### Explanation
 
@@ -43,11 +43,11 @@ The code is clear and easy to understand.
 
 ### Good Code Review 2
 
-[https://github.com/AlbertRequilme/cp1404practicals/pull/4]()
+[https://github.com/AlbertRequilme/cp1404practicals/pull/4](2)
 
 ### Explanation
 
-Good clear docstring。
+Good clear docstring.
 
 ## Practicals
 
